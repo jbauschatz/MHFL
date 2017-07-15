@@ -2,6 +2,7 @@
 
 body {
   padding-top: 60px; /* for Bootstrap's fixed top header bar */
+  background: #f5f5f5
 }
 
 .event-thumbnail {

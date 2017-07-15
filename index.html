@@ -32,46 +32,47 @@
     <script type="text/javascript" src="app/router.js"></script>
 </head>
 <body ng-app="mwLeagueApp">
-    <!-- Top navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">MWHFA</a>
-            </div>
-            <ul class="nav navbar-nav">
-                <li ui-sref-active="active">
-                    <a ui-sref="home">Home</a>
-                </li>
-                <li ui-sref-active="active">
-                    <a ui-sref="events">Events</a>
-                </li>
-                <li ui-sref-active="active">
-                    <a ui-sref="rankings">Rankings</a>
-                </li>
-                <li ui-sref-active="active">
-                    <a ui-sref="gallery">Gallery</a>
-                </li>
-                <li ui-sref-active="active">
-                    <a ui-sref="aboutUs">About Us</a>
-                </li>
-                <li ui-sref-active="active">
-                    <a ui-sref="contactUs">Contact Us</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
+<!-- Top navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
-        <div class="row">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">MWHFA</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li ui-sref-active="active">
+                <a ui-sref="home">Home</a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="events">Events</a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="rankings">Rankings</a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="gallery">Gallery</a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="aboutUs">About Us</a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="contactUs">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
-            <!--Main page content-->
-            <div class="col-md-8">
-                <div ui-view></div>
-            </div>
+<div class="container">
+    <div class="row">
 
-            <!--Sponsors nav-->
-            <div class="col-md-2">
-                <div class="">
+        <!--Main page content-->
+        <div class="col-md-8">
+            <div ui-view></div>
+        </div>
+
+        <!--Sponsors nav-->
+        <div class="col-md-2">
+            <div class="panel panel-default">
+                <div class="panel-body">
                     <h4>MWHFA Sponsors</h4>
                     <p>
                         <a href="http://nancyhulan.com/">
