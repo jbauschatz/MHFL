@@ -7,3 +7,7 @@ body {
 .event-thumbnail {
   padding-top: 50px;
 }
+
+ul.rankings {
+  list-style-type: none;
+}
