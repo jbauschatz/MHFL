@@ -1,0 +1,9 @@
+@CHARSET "ISO-8859-1";
+
+body {
+  padding-top: 60px; /* for Bootstrap's fixed top header bar */
+}
+
+.event-thumbnail {
+  padding-top: 50px;
+}
