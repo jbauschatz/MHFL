@@ -3,7 +3,9 @@
         <img ng-src="{{imagePath}}" class="img-responsive"/>
     </div>
     <div class="col-md-6">
-        <h2>{{name}}</h2>
+        <h2>
+            <a ng-href="{{link}}">{{name}}</a>
+        </h2>
         <p>
             <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
             {{date}}

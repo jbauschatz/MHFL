@@ -5,6 +5,7 @@ angular.module('mwLeagueApp')
     templateUrl: 'component/event/eventThumbnail.html',
     scope: {
       name: '@',
+      link: '@',
       location: '@',
       date: '@',
       imagePath: '@'
